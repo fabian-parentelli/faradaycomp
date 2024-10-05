@@ -1,4 +1,5 @@
-const LoadSmall = ({ color, size }) => {
+
+export const Spinner = ({ color, size }) => {
 
     return (
         <div
@@ -15,5 +16,3 @@ const LoadSmall = ({ color, size }) => {
         </div>
     );
 };
-
-export default LoadSmall;

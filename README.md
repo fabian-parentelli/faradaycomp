@@ -1,10 +1,10 @@
 # Faradays Components
 
-**Versión:** 0.0.2
+**Versión:** 0.0.3
 
-### Load
+### Spinner
 
-El componente `Load` es un elemento visual que muestra al usuario que una operación está en progreso y que debe esperar mientras se carga contenido o se completa una acción en segundo plano.
+El componente `Spinner` es un elemento visual que muestra al usuario que una operación está en progreso y que debe esperar mientras se carga contenido o se completa una acción en segundo plano.
 
 #### Props:
 
@@ -15,4 +15,4 @@ El componente `Load` es un elemento visual que muestra al usuario que una operac
 #### Ejemplo de uso:
 
 ```jsx
-<Load color="blue" size={50} />
+<Spinner color="blue" size={50} />
